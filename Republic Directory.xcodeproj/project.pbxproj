@@ -47,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50002BEA286256CA0033CCC9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5093DD4B2861210F0033CD13 /* Downloader.swift */,
+				5093DD47286116170033CD13 /* JSONManager.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		50002BEB286256E10033CCC9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5093DD39286115C70033CD13 /* ContentView.swift */,
+				5093DD4D286123730033CD13 /* DetailView.swift */,
+				5093DD5D286144350033CD13 /* IndividualPic.swift */,
+				5093DD5428613A450033CD13 /* SplashScreenView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5093DD2B286115C70033CD13 = {
 			isa = PBXGroup;
 			children = (
@@ -68,13 +88,9 @@
 			children = (
 				50002BE92862560A0033CCC9 /* Republic-Directory-Info.plist */,
 				5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */,
-				5093DD39286115C70033CD13 /* ContentView.swift */,
-				5093DD5D286144350033CD13 /* IndividualPic.swift */,
-				5093DD4D286123730033CD13 /* DetailView.swift */,
-				5093DD4B2861210F0033CD13 /* Downloader.swift */,
-				5093DD47286116170033CD13 /* JSONManager.swift */,
+				50002BEB286256E10033CCC9 /* Views */,
+				50002BEA286256CA0033CCC9 /* Helpers */,
 				5093DD3B286115C80033CD13 /* Assets.xcassets */,
-				5093DD5428613A450033CD13 /* SplashScreenView.swift */,
 				5093DD3D286115C80033CD13 /* Preview Content */,
 			);
 			path = "Republic Directory";

@@ -28,6 +28,8 @@ extension Bundle {
     }
 }
 
+
+
 struct Person: Codable, Hashable {
     let individuals: [Individual]
     static let thePerson: Person = Bundle.main.decode(file: "directory.json")

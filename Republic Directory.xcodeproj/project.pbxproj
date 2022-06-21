@@ -11,6 +11,13 @@
 		5093DD3A286115C70033CD13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD39286115C70033CD13 /* ContentView.swift */; };
 		5093DD3C286115C80033CD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093DD3B286115C80033CD13 /* Assets.xcassets */; };
 		5093DD3F286115C80033CD13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093DD3E286115C80033CD13 /* Preview Assets.xcassets */; };
+		5093DD46286115D80033CD13 /* directory.json in Resources */ = {isa = PBXBuildFile; fileRef = 5093DD45286115D80033CD13 /* directory.json */; };
+		5093DD48286116170033CD13 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD47286116170033CD13 /* JSONManager.swift */; };
+		5093DD4C2861210F0033CD13 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD4B2861210F0033CD13 /* Downloader.swift */; };
+		5093DD4E286123730033CD13 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD4D286123730033CD13 /* DetailView.swift */; };
+		5093DD53286139930033CD13 /* GaugeProgressViewStyle in Frameworks */ = {isa = PBXBuildFile; productRef = 5093DD52286139930033CD13 /* GaugeProgressViewStyle */; };
+		5093DD5528613A450033CD13 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD5428613A450033CD13 /* SplashScreenView.swift */; };
+		5093DD5E286144350033CD13 /* IndividualPic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD5D286144350033CD13 /* IndividualPic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,12 @@
 		5093DD39286115C70033CD13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5093DD3B286115C80033CD13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5093DD3E286115C80033CD13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5093DD45286115D80033CD13 /* directory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = directory.json; sourceTree = "<group>"; };
+		5093DD47286116170033CD13 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
+		5093DD4B2861210F0033CD13 /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		5093DD4D286123730033CD13 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		5093DD5428613A450033CD13 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		5093DD5D286144350033CD13 /* IndividualPic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndividualPic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5093DD53286139930033CD13 /* GaugeProgressViewStyle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +67,12 @@
 			children = (
 				5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */,
 				5093DD39286115C70033CD13 /* ContentView.swift */,
+				5093DD5D286144350033CD13 /* IndividualPic.swift */,
+				5093DD4D286123730033CD13 /* DetailView.swift */,
+				5093DD4B2861210F0033CD13 /* Downloader.swift */,
+				5093DD47286116170033CD13 /* JSONManager.swift */,
 				5093DD3B286115C80033CD13 /* Assets.xcassets */,
+				5093DD5428613A450033CD13 /* SplashScreenView.swift */,
 				5093DD3D286115C80033CD13 /* Preview Content */,
 			);
 			path = "Republic Directory";
@@ -62,6 +81,7 @@
 		5093DD3D286115C80033CD13 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				5093DD45286115D80033CD13 /* directory.json */,
 				5093DD3E286115C80033CD13 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -83,6 +103,9 @@
 			dependencies = (
 			);
 			name = "Republic Directory";
+			packageProductDependencies = (
+				5093DD52286139930033CD13 /* GaugeProgressViewStyle */,
+			);
 			productName = "Republic Directory";
 			productReference = 5093DD34286115C70033CD13 /* Republic Directory.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +134,9 @@
 				Base,
 			);
 			mainGroup = 5093DD2B286115C70033CD13;
+			packageReferences = (
+				5093DD51286139930033CD13 /* XCRemoteSwiftPackageReference "GaugeView" */,
+			);
 			productRefGroup = 5093DD35286115C70033CD13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5093DD3F286115C80033CD13 /* Preview Assets.xcassets in Resources */,
+				5093DD46286115D80033CD13 /* directory.json in Resources */,
 				5093DD3C286115C80033CD13 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5093DD5528613A450033CD13 /* SplashScreenView.swift in Sources */,
 				5093DD3A286115C70033CD13 /* ContentView.swift in Sources */,
+				5093DD5E286144350033CD13 /* IndividualPic.swift in Sources */,
+				5093DD48286116170033CD13 /* JSONManager.swift in Sources */,
+				5093DD4C2861210F0033CD13 /* Downloader.swift in Sources */,
+				5093DD4E286123730033CD13 /* DetailView.swift in Sources */,
 				5093DD38286115C70033CD13 /* Republic_DirectoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5093DD51286139930033CD13 /* XCRemoteSwiftPackageReference "GaugeView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kkla320/GaugeView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5093DD52286139930033CD13 /* GaugeProgressViewStyle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5093DD51286139930033CD13 /* XCRemoteSwiftPackageReference "GaugeView" */;
+			productName = GaugeProgressViewStyle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5093DD2C286115C70033CD13 /* Project object */;
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct Republic_DirectoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

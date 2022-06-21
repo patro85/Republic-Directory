@@ -12,7 +12,6 @@ struct IndividualPic: View {
     
     var body: some View {
         ZStack {
-            // AsyncImage(url: URL(string: Person.thePerson.individuals[1].profilePicture))
             AsyncImage(url: URL(string: profilePicUrl))
             { phase in
                 switch phase {

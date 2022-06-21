@@ -19,8 +19,8 @@ func getTheData() {
                     let directoryData = try Data(contentsOf: directoryTempFileUrl)
                     try directoryData.write(to: directoryName)
                     print("The data has been got.\nFile located at: \(directoryName)")
-                } catch {
-                    print("Error downloading file.")
+                } catch let error {
+                    print("Error downloading file. \(error)")
                 }
             }
         }.resume()

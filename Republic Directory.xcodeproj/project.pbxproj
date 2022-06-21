@@ -21,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50002BE92862560A0033CCC9 /* Republic-Directory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Republic-Directory-Info.plist"; sourceTree = SOURCE_ROOT; };
 		5093DD34286115C70033CD13 /* Republic Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Republic Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Republic_DirectoryApp.swift; sourceTree = "<group>"; };
 		5093DD39286115C70033CD13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,6 +66,7 @@
 		5093DD36286115C70033CD13 /* Republic Directory */ = {
 			isa = PBXGroup;
 			children = (
+				50002BE92862560A0033CCC9 /* Republic-Directory-Info.plist */,
 				5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */,
 				5093DD39286115C70033CD13 /* ContentView.swift */,
 				5093DD5D286144350033CD13 /* IndividualPic.swift */,
@@ -301,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Republic Directory/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Republic-Directory-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -329,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Republic Directory/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Republic-Directory-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

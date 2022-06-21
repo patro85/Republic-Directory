@@ -7,9 +7,10 @@
 
 import Foundation
 import UIKit
+import SwiftUI
 
 extension Bundle {
-    func decode<T: Decodable>(file:String) -> T {
+    func decode<T: Decodable>(file: String) -> T {
         guard let url = self.url(forResource: file, withExtension: nil) else {
             fatalError("Could not find \(file) in the project!")
         }

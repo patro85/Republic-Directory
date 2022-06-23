@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "gaugeview",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kkla320/GaugeView.git",
+      "state" : {
+        "revision" : "a49ddf5bd9766806e22d1ad91f1b9a1c74d798a2",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "trigonometry",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kkla320/Trigonometry",
+      "state" : {
+        "revision" : "2c73907a339532aa8a53fcfadffb5bc6e91b6a73",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

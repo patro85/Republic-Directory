@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50002BEE28650A2D0033CCC9 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50002BEC28650A2D0033CCC9 /* Main.xcdatamodeld */; };
+		50002BF028650A940033CCC9 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50002BEF28650A940033CCC9 /* PersistenceController.swift */; };
 		5093DD38286115C70033CD13 /* Republic_DirectoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */; };
 		5093DD3A286115C70033CD13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093DD39286115C70033CD13 /* ContentView.swift */; };
 		5093DD3C286115C80033CD13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5093DD3B286115C80033CD13 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 
 /* Begin PBXFileReference section */
 		50002BE92862560A0033CCC9 /* Republic-Directory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Republic-Directory-Info.plist"; sourceTree = SOURCE_ROOT; };
+		50002BED28650A2D0033CCC9 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		50002BEF28650A940033CCC9 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		5093DD34286115C70033CD13 /* Republic Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Republic Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Republic_DirectoryApp.swift; sourceTree = "<group>"; };
 		5093DD39286115C70033CD13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				5093DD37286115C70033CD13 /* Republic_DirectoryApp.swift */,
 				50002BEB286256E10033CCC9 /* Views */,
 				50002BEA286256CA0033CCC9 /* Helpers */,
+				50002BEC28650A2D0033CCC9 /* Main.xcdatamodeld */,
+				50002BEF28650A940033CCC9 /* PersistenceController.swift */,
 				5093DD3B286115C80033CD13 /* Assets.xcassets */,
 				5093DD3D286115C80033CD13 /* Preview Content */,
 			);
@@ -182,12 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50002BF028650A940033CCC9 /* PersistenceController.swift in Sources */,
 				5093DD5528613A450033CD13 /* SplashScreenView.swift in Sources */,
 				5093DD3A286115C70033CD13 /* ContentView.swift in Sources */,
 				5093DD5E286144350033CD13 /* IndividualPic.swift in Sources */,
 				5093DD48286116170033CD13 /* JSONManager.swift in Sources */,
 				5093DD4C2861210F0033CD13 /* Downloader.swift in Sources */,
 				5093DD4E286123730033CD13 /* DetailView.swift in Sources */,
+				50002BEE28650A2D0033CCC9 /* Main.xcdatamodeld in Sources */,
 				5093DD38286115C70033CD13 /* Republic_DirectoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,6 +416,19 @@
 			productName = GaugeProgressViewStyle;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		50002BEC28650A2D0033CCC9 /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				50002BED28650A2D0033CCC9 /* Main.xcdatamodel */,
+			);
+			currentVersion = 50002BED28650A2D0033CCC9 /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5093DD2C286115C70033CD13 /* Project object */;
 }
